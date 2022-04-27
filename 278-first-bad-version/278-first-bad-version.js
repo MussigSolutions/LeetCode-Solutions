@@ -37,8 +37,9 @@ var solution = function(isBadVersion) {
         r = mid;
         
       }else{ 
+        
         //If false we recognise the first bad version is in the second half of versions
-        l = mid; 
+        if(!isBadVersion(mid)) l = mid; 
       }
         
       }
