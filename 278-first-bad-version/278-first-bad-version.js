@@ -38,7 +38,7 @@ var solution = function(isBadVersion) {
         
       }else{ 
         
-
+        if(!isBadVersion(mid))
 
         l = mid; 
       }
